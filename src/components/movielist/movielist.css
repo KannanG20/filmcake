@@ -1,0 +1,22 @@
+.movielist{
+    width: 100%;
+    padding: 0 50px;
+    margin-top: 50px;
+}
+.movielist h2{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media only screen and (max-width: 600px){
+
+    .movielist{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+}

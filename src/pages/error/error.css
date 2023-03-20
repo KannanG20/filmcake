@@ -1,0 +1,22 @@
+.errormessage{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    /* border: 2px solid white; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+span{
+    font-size: x-large;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
+p{
+    font-size: larger;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
